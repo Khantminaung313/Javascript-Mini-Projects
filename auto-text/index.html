@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Text Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <h1 class="heading"></h1>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        var Typed = new Typed('.heading', {
+            strings: [`I'm web developer`, `I'm graphic designer`], typeSpeed : 100, loop : true,
+        })
+
+
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    </script>
+</body>
+</html>

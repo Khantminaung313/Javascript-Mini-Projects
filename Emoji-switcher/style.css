@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e3e3e;
+}
+
+.heading{
+    font-size: 3rem;
+    margin: 2rem;
+    color: rgb(243, 135, 3);
+}
+
+#emoji-btn{
+    font-size: 4rem;
+    padding: 1rem;
+    filter: grayscale(1);
+    transition: all .3s;
+}
+
+#emoji-btn:hover{
+    filter: grayscale(0);
+    scale: 1.2;
+}

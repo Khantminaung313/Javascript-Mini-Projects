@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: linear-gradient(75deg , rgb(170, 201, 228) 50%, rgb(228, 185, 120) 50%);
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 3rem;
+    color: blue;
+    letter-spacing: .1rem;
+    margin-bottom: 3rem;
+}
+
+.container{
+    width: 400px;
+    background-color: rgba(96, 243, 231, 0.461);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.container input{
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    outline:  none;
+    color: #333;
+}
+
+.container input::placeholder{
+    color: rgb(135, 135, 243);
+}
+
+.container button{
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin: 1rem;
+    border: none;
+    user-select: none;
+}
+
+.container .add{
+    background-color: blue;
+}
+
+.container .remove{
+    background-color: red;
+}
+
+.container button:active{
+    background-color: #000;
+    color: white;
+}

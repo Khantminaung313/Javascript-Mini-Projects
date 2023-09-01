@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(248, 167, 248), green);
+}
+
+.heading {
+    font-size: 3rem;
+    margin: 2rem;
+    font-weight: bolder;
+}
+
+.countdown{
+    font-size: 2rem;
+    color: black;
+    background: linear-gradient(45deg, rgb(255, 229, 229), rgb(120, 120, 120));
+    padding: 1rem;
+    border-radius: 5px;
+}
